@@ -1,0 +1,21 @@
+.main {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.lists{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.list {
+  border: 2px solid red;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.item {
+  border: 2px solid purple;
+  margin: 10px 0;
+  padding: 10px;
+}
